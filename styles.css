@@ -89,3 +89,22 @@ html {
     background: #67597A ;
     color: azure;
 }
+.button:hover {
+    background-color: #222052;
+    transition: all 0.3s ease;
+}
+.navbar_links:hover {
+    color: #ff0844;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+}
